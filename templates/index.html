@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>會員系統</title>
+</head>
+
+<body>
+    <h2>會員系統首頁</h2>
+    <div>歡迎光臨到我們的網站!</div>
+    <br />
+    <h3>會員註冊</h3>
+    <form action="/signUp" method="POST">
+        暱稱 <input type="text" name="nickname" />
+        信箱 <input type="text" name="email" />
+        密碼 <input type="text" name="password" />
+        <button>註冊</button>
+    </form>
+    <hr />
+    <h3>會員登入</h3>
+    <form action="/signIn" method="POST">
+        信箱 <input type="text" name="email" />
+        密碼 <input type="text" name="password" />
+        <button>會員登入</button>
+    </form>
+    <br />
+    <img src="/Patrick_Star.PNG" />
+</body>
+
+</html>
